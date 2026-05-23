@@ -1,4 +1,4 @@
-baseURL = 'https://vulpesarchive.github.io/'
+baseURL = 'https://messvulpes.github.io/'
 locale = 'tr-tr'
 title = 'Vulpes Archive'
 theme = 'ananke'
