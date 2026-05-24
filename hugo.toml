@@ -1,4 +1,34 @@
 baseURL = 'https://messvulpes.github.io/'
 locale = 'tr-tr'
 title = 'Vulpes Archive'
-theme = 'ananke'
+theme = 'PaperMod'
+
+[[menus.main]]
+name = "Hakkında"
+url = "/about/"
+weight = 10
+
+[[menus.main]]
+name = "Yazılar"
+url = "/posts/"
+weight = 20
+
+[[menus.main]]
+name = "Etiketler"
+url = "/tags/"
+weight = 40
+
+[[menus.main]]
+name = "Arşiv"
+url = "/archives/"
+weight = 35
+
+[outputs]
+home = ["HTML", "RSS", "JSON"]
+
+[params]
+  defaultTheme = "auto"
+  ShowReadingTime = true
+  ShowTags = true
+  ShowBreadCrumbs = true
+  ShowSearchBar = true
